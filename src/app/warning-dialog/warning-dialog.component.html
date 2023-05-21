@@ -1,0 +1,22 @@
+<div class="confirm-dialog">
+    <div class="container-dialog">
+        <div class="title-dialog">{{ data.title ? data.title : "Không thể xóa" }}</div>
+        <div class="content-dialog">
+            <div class="row">
+                <div class="col-12">
+                    <img src="assets/img/info-circle.png" alt="anh" />
+                    <p class="content confirm-content" [innerHtml]="data.content"></p>
+                    <p class="note" *ngIf="data.message">{{ data.message }}</p>
+                </div>
+            </div>
+        </div>
+        <div class="action-dialog">
+            <!-- <button class="tconnect-button tconnect-button-action cancel-button" (click)="handleCancel($event)">
+                {{ data.cancelText ? data.cancelText : "Đóng" }}
+            </button> -->
+            <!-- <button class="tconnect-button tconnect-button-action accept-button" (click)="handleAccept($event)">
+                {{ data.acceptText ? data.acceptText : "Áp dụng" }}
+            </button> -->
+        </div>
+    </div>
+</div>

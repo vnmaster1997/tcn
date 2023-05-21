@@ -1,0 +1,51 @@
+<!-- <div class="confirm-dialog">
+  <div mat-dialog-title style="border: none; margin: 0">
+    <p>{{ data.title ? data.title : "Warning" }}</p>
+  </div>
+
+  <div mat-dialog-content style="margin-top: 20px">
+    <div class="row">
+      <div class="col-12">
+        <p class="content leap-confirm-content" [innerHtml]="data.content"></p>
+        <p class="note" *ngIf="data.note">{{ data.note }}</p>
+      </div>
+    </div>
+  </div>
+  <div mat-dialog-actions>
+    <button
+      ejs-button
+      cssClass="e-outline leap-button leap-button-action cancel-btn"
+      (click)="handleCancel($event)"
+    >
+      {{ data.cancelText ? data.cancelText : "Cancel" }}
+    </button>
+    <button
+      ejs-button
+      cssClass="e-outline leap-button leap-button-cancel accept-btn"
+      (click)="handleOk($event)"
+    >
+      {{ data.okText ? data.okText : "Ok" }}
+    </button>
+  </div>
+</div> -->
+<div class="confirm-dialog">
+    <div class="container-dialog">
+        <div class="title-dialog">{{ data.title ? data.title : "Xác nhận gửi" }}</div>
+        <div class="content-dialog">
+            <div class="row">
+                <div class="col-12">
+                    <p class="content confirm-content" [innerHtml]="data.content"></p>
+                    <p class="note" *ngIf="data.note">{{ data.note }}</p>
+                </div>
+            </div>
+        </div>
+        <div class="action-dialog">
+            <button class="tconnect-button tconnect-button-action cancel-button" (click)="handleCancel($event)">
+                {{ data.cancelText ? data.cancelText : "Đóng" }}
+            </button>
+            <button class="tconnect-button tconnect-button-action accept-button" (click)="handleAccept($event)">
+                {{ data.acceptText ? data.acceptText : "Áp dụng" }}
+            </button>
+        </div>
+    </div>
+</div>

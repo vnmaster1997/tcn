@@ -1,0 +1,47 @@
+.btn-text {
+	background: #e4e4eb;
+	box-shadow: 0px 0px 1px rgba(40, 41, 61, 0.04), 0px 2px 4px rgba(96, 97, 112, 0.16);
+	border-radius: 8px;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 12px;
+	line-height: 16px;
+	text-align: center;
+	letter-spacing: 0.2px;
+	color: #ffffff !important;
+}
+
+.btn-cancel {
+	background: #e4e4eb !important;
+	box-shadow: 0px 0px 1px rgba(40, 41, 61, 0.04), 0px 2px 4px rgba(96, 97, 112, 0.16);
+	border-radius: 8px;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 12px;
+	line-height: 16px;
+	/* identical to box height, or 133% */
+
+	text-align: center;
+	letter-spacing: 0.2px;
+
+	/* Light / Light 4 */
+
+	color: #28293d !important;
+	margin-right: 16px;
+}
+
+.title-alert {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px !important;
+	line-height: 24px;
+	color: #28293d;
+}
+
+.message-alert {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px !important;
+	line-height: 24px;
+	color: #555770;
+}

@@ -1,1 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
+/* You can add global styles to this file, and also import other style files */
+* {
+	/* Large Label */
+	font-family: Inter, sans-serif;
+	font-style: normal;
+	box-sizing: border-box !important;
+}
+@import '~@angular/material/prebuilt-themes/indigo-pink.css';

@@ -1,0 +1,25 @@
+<div class="automatic-scheduling-container">
+    <div class="wrap">
+        <div class="title-dialog">
+            Đặt lịch tự động
+        </div>
+        <div class="selection-schedule-wrap">
+            <div class="select-hour">
+                <label>Chọn giờ</label>
+                <p>Hour</p>
+            </div>
+            <div class="select-date">
+                <label>Chọn ngày</label>
+                <p>Hour</p>
+            </div>
+        </div>
+        <div class="action-dialog">
+            <button class="tconnect-button tconnect-button-action cancel-button" (click)="handleCancel($event)">
+                {{ data.cancelText ? data.cancelText : "Đóng" }}
+            </button>
+            <button class="tconnect-button tconnect-button-action accept-button" (click)="handleAccept($event)">
+                {{ data.acceptText ? data.acceptText : "Áp dụng" }}
+            </button>
+        </div>
+    </div>
+</div>
